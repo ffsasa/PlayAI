@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# VS Code settings (nếu dùng VS Code)
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Jupyter notebook checkpoints (nếu có dùng)
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Python dependency files
+*.egg-info/
+dist/
+build/
+
+# Ignore any output video/images if you save frames
+output/
+*.mp4
+*.avi
+*.png
+*.jpg
+
+# Ignore config/secrets (nếu có)
+secrets.json
+config.json
+
+# MediaPipe models cache
+mediapipe/modules/*_landmark.tflite
+mediapipe/modules/*_detector.tflite
